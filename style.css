@@ -1,155 +1,79 @@
-@font-face {
-    font-family: 'Vouge';
-    src: url('Vogue.ttf') format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;}
-
-@font-face {
-    font-family: 'Melodrame';
-    src: url('Relationship\ of\ mélodrame.ttf')format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;}
-
-@font-face {
-    font-family: 'AppleGaramond-Bold';
-    src: url('AppleGaramond-Bold.ttf')format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;}
-
-@font-face {
-    font-family: 'AppleGaramond-BoldItalic';
-    src: url('AppleGaramond-BoldItalic.ttf')format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;}
+/* =======================
+   FONTS
+======================= */
 
 @font-face {
     font-family: 'AppleGaramond-Italic';
-    src: url('AppleGaramond-Italic.ttf')format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;}
-
-@font-face {
-    font-family: 'AppleGaramond';
-    src: url('AppleGaramond.ttf')format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;}
-
-@font-face {
-    font-family: 'AppleGaramond-LightItalic';
-    src: url('AppleGaramond-LightItalic.ttf')format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;}
-
-@font-face {
-    font-family: 'AppleGaramond-Light';
-    src: url('AppleGaramond-Light.ttf')format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;}
+    src: url("AppleGaramond-Italic.ttf") format("truetype");
+    font-display: swap;
+}
 
 @font-face {
     font-family: 'Helvetica';
+    src: url("Helvetica.woff") format("woff");
+    font-weight: 400;
     font-style: normal;
-    font-weight: normal;
-    src: url('Helvetica.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Helvetica Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src:  url('Helvetica-Oblique.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Helvetica Compressed';
-    font-style: normal;
-    font-weight: normal;
-    src:  url('helvetica-compressed-5871d14b6903a.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Helvetica Rounded Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: url('helvetica-rounded-bold-5871d05ead8de.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Helvetica Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: url('Helvetica-Bold.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Helvetica Bold Oblique';
-    font-style: normal;
-    font-weight: normal;
-    src: url('Helvetica-BoldOblique.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Helvetica Light';
-    font-style: normal;
-    font-weight: normal;
-    src:  url('helvetica-light-587ebe5a59211.woff') format('woff');
-    }
-
-html{
-    cursor: url('nu_hand2.png') 256 256, auto;
 }
 
-body{
+@font-face {
+    font-family: 'Helvetica';
+    src: url("Helvetica-Oblique.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* =======================
+   GLOBAL
+======================= */
+
+html {
+    cursor: url('nu_hand2.png') 16 16, auto;
+}
+
+@media (hover: none) {
+    html {
+        cursor: auto;
+    }
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
     background-image: url("pictureofacouch3.png");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: #f2f2f2;
 }
 
-h1 {
-    font-family: 'Helvetica Oblique', serif;
-    font-size: 450%;
-    margin: 50px 30px 0px ;
+/* =======================
+   TYPOGRAPHY
+======================= */
 
+h1 {
+    font-family: 'Helvetica', serif;
+    font-style: italic;
+    font-size: clamp(2.2rem, 6vw, 4rem);
+    margin: 50px 30px 0;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.15);
 }
 
 p {
     color: #035D12;
     font-family: 'AppleGaramond-Italic';
-    font-size: 200%;
-    margin: 0px 30px 20px;
-
+    font-size: clamp(1.1rem, 4vw, 2rem);
+    margin: 0 30px 20px;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.15);
 }
 
-div {
-    margin-top: 500px;
-}
+/* =======================
+   LAYOUT
+======================= */
 
-.pic {
-  rotate: z 0deg;
-  animation: spin-loop 5s linear infinite;
-  will-change: rotate; 
-
-  width: 200px;
-  height: auto;
-
-  
-}
-
-@keyframes spin-loop {
-  to { rotate: z 360deg; }
+.quote {
+    margin-top: 20vh;
 }
 
 .sen {
@@ -157,15 +81,40 @@ div {
     color: #3C2F93;
 }
 
-::selection {
-  background-color: #CAD2C5;
-  color: #2F3E46;          
+@media (max-width: 600px) {
+    .sen {
+        text-align: left;
+    }
 }
 
-.mover {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  /* Define the properties to transition, the duration, and timing */
-  transition: transform 1s ease-out; 
+/* =======================
+   SELECTION
+======================= */
+
+::selection {
+    background-color: #CAD2C5;
+    color: #2F3E46;
+}
+
+/* =======================
+   OPTIONAL ANIMATION
+======================= */
+
+.pic {
+    width: 200px;
+    height: auto;
+    animation: spin-loop 5s linear infinite;
+    will-change: transform;
+}
+
+@keyframes spin-loop {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .pic {
+        animation: none;
+    }
 }
