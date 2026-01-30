@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Vouge';
+    src: url('fonts/Vogue.ttf') format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;}
+
+@font-face {
+    font-family: 'Melodrame';
+    src: url('fonts/Relationship\ of\ mélodrame.ttf')format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;}
+
+@font-face {
+    font-family: 'AppleGaramond-Bold';
+    src: url('fonts/AppleGaramond-Bold.ttf')format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;}
+
+@font-face {
+    font-family: 'AppleGaramond-BoldItalic';
+    src: url('fonts/AppleGaramond-BoldItalic.ttf')format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;}
+
+@font-face {
+    font-family: 'AppleGaramond-Italic';
+    src: url('fonts/AppleGaramond-Italic.ttf')format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;}
+
+@font-face {
+    font-family: 'AppleGaramond';
+    src: url('fonts/AppleGaramond.ttf')format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;}
+
+@font-face {
+    font-family: 'AppleGaramond-LightItalic';
+    src: url('fonts/AppleGaramond-LightItalic.ttf')format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;}
+
+@font-face {
+    font-family: 'AppleGaramond-Light';
+    src: url('fonts/AppleGaramond-Light.ttf')format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;}
+
+@font-face {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Helvetica.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Helvetica Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src:  url('fonts/Helvetica-Oblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Helvetica Compressed';
+    font-style: normal;
+    font-weight: normal;
+    src:  url('fonts/helvetica-compressed-5871d14b6903a.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Helvetica Rounded Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/helvetica-rounded-bold-5871d05ead8de.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Helvetica Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Helvetica-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Helvetica Bold Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Helvetica-BoldOblique.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Helvetica Light';
+    font-style: normal;
+    font-weight: normal;
+    src:  url('fonts/helvetica-light-587ebe5a59211.woff') format('woff');
+    }
+
+html{
+    cursor: url('imgs/nu_hand2.png') 256 256, auto;
+}
+
+body{
+    background-image: url("imgs/pictureofacouch3.png");
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Helvetica Oblique', serif;
+    font-size: 450%;
+    margin: 50px 30px 0px ;
+
+}
+
+p {
+    color: #035D12;
+    font-family: 'AppleGaramond-Italic';
+    font-size: 200%;
+    margin: 0px 30px 20px;
+
+}
+
+div {
+    margin-top: 500px;
+}
+
+.pic {
+  rotate: z 0deg;
+  animation: spin-loop 5s linear infinite;
+  will-change: rotate; 
+
+  width: 200px;
+  height: auto;
+
+  
+}
+
+@keyframes spin-loop {
+  to { rotate: z 360deg; }
+}
+
+.sen {
+    text-align: right;
+    color: #3C2F93;
+}
+
+::selection {
+  background-color: #CAD2C5;
+  color: #2F3E46;          
+}
+
+.mover {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /* Define the properties to transition, the duration, and timing */
+  transition: transform 1s ease-out; 
+}
