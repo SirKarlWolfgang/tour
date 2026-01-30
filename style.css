@@ -110,11 +110,11 @@
     }
 
 html{
-    cursor: url('imgs/nu_hand2.png') 256 256, auto;
+    cursor: url('nu_hand2.png') 256 256, auto;
 }
 
 body{
-    background-image: url("imgs/pictureofacouch3.png");
+    background-image: url("pictureofacouch3.png");
     background-size: cover;
 }
 
