@@ -1,55 +1,55 @@
 @font-face {
     font-family: 'Vouge';
-    src: url('fonts/Vogue.ttf') format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    src: url('Vogue.ttf') format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;}
 
 @font-face {
     font-family: 'Melodrame';
-    src: url('fonts/Relationship\ of\ mélodrame.ttf')format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    src: url('Relationship\ of\ mélodrame.ttf')format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;}
 
 @font-face {
     font-family: 'AppleGaramond-Bold';
-    src: url('fonts/AppleGaramond-Bold.ttf')format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    src: url('AppleGaramond-Bold.ttf')format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;}
 
 @font-face {
     font-family: 'AppleGaramond-BoldItalic';
-    src: url('fonts/AppleGaramond-BoldItalic.ttf')format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    src: url('AppleGaramond-BoldItalic.ttf')format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;}
 
 @font-face {
     font-family: 'AppleGaramond-Italic';
-    src: url('fonts/AppleGaramond-Italic.ttf')format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    src: url('AppleGaramond-Italic.ttf')format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;}
 
 @font-face {
     font-family: 'AppleGaramond';
-    src: url('fonts/AppleGaramond.ttf')format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    src: url('AppleGaramond.ttf')format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;}
 
 @font-face {
     font-family: 'AppleGaramond-LightItalic';
-    src: url('fonts/AppleGaramond-LightItalic.ttf')format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    src: url('AppleGaramond-LightItalic.ttf')format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;}
 
 @font-face {
     font-family: 'AppleGaramond-Light';
-    src: url('fonts/AppleGaramond-Light.ttf')format('truetype'), url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    src: url('AppleGaramond-Light.ttf')format('truetype'), url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;}
@@ -58,7 +58,7 @@
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: normal;
-    src: url('fonts/Helvetica.woff') format('woff');
+    src: url('Helvetica.woff') format('woff');
     }
     
 
@@ -66,7 +66,7 @@
     font-family: 'Helvetica Oblique';
     font-style: normal;
     font-weight: normal;
-    src:  url('fonts/Helvetica-Oblique.woff') format('woff');
+    src:  url('Helvetica-Oblique.woff') format('woff');
     }
     
 
@@ -74,7 +74,7 @@
     font-family: 'Helvetica Compressed';
     font-style: normal;
     font-weight: normal;
-    src:  url('fonts/helvetica-compressed-5871d14b6903a.woff') format('woff');
+    src:  url('helvetica-compressed-5871d14b6903a.woff') format('woff');
     }
     
 
@@ -82,7 +82,7 @@
     font-family: 'Helvetica Rounded Bold';
     font-style: normal;
     font-weight: normal;
-    src: url('fonts/helvetica-rounded-bold-5871d05ead8de.woff') format('woff');
+    src: url('helvetica-rounded-bold-5871d05ead8de.woff') format('woff');
     }
     
 
@@ -90,7 +90,7 @@
     font-family: 'Helvetica Bold';
     font-style: normal;
     font-weight: normal;
-    src: url('fonts/Helvetica-Bold.woff') format('woff');
+    src: url('Helvetica-Bold.woff') format('woff');
     }
     
 
@@ -98,7 +98,7 @@
     font-family: 'Helvetica Bold Oblique';
     font-style: normal;
     font-weight: normal;
-    src: url('fonts/Helvetica-BoldOblique.woff') format('woff');
+    src: url('Helvetica-BoldOblique.woff') format('woff');
     }
     
 
@@ -106,7 +106,7 @@
     font-family: 'Helvetica Light';
     font-style: normal;
     font-weight: normal;
-    src:  url('fonts/helvetica-light-587ebe5a59211.woff') format('woff');
+    src:  url('helvetica-light-587ebe5a59211.woff') format('woff');
     }
 
 html{
